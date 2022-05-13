@@ -1,0 +1,52 @@
+.logo {
+    width: 200px;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: #072F60;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 0 #3BBCA7;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+nav a:hover {
+    box-shadow: inset 100px 0 0 0 #3BBCA7;
+    color: white;
+}
+
+nav .search-input {
+    border-radius: 20px;
+    margin-left: 1rem;
+    border: none;
+    padding-right: 2rem;
+}
+
+nav button {
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: -2.5rem;
+    margin-right: 2.3rem;
+}
+
+.login-section {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-section span:first-child {
+    border-right: 1px solid black;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.login-section span:nth-child(2) {
+    padding: 0 .5rem;
+}
+
