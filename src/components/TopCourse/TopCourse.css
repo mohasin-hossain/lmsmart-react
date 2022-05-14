@@ -1,0 +1,41 @@
+.card {
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.card:hover {
+    transform: translateY(-.8rem);
+}
+
+.star {
+    color: #FFB64C;
+    font-size: 15px;
+}
+
+.user-icon {
+    color: #3BBCA7;
+}
+
+.cat-price p:first-child {
+    color: #3BBCA7;
+    background-color: #3bbca624;
+    padding: .2rem .4rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cat-price p:last-child {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #072F60;
+}
+
+.author img {
+    width: 40px;
+    border-radius: 100vh;
+}

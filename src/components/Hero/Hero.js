@@ -5,6 +5,7 @@ import blueCircle from "../../images/blue-circle.png";
 import yellowCircle from "../../images/yellow-circle.png";
 import dots from "../../images/dots.png";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,7 +18,9 @@ const Hero = () => {
             World-class training and development programs developed by top
             teachers
           </p>
+          <Link to="/courses">
           <button>Explore all courses</button>
+          </Link>
         </div>
         <div className="d-flex align-items-center justify-content-center gap-3 gap-xl-5 position-relative">
           <img src={headerImg1} alt="" />

@@ -1,0 +1,22 @@
+.top-courses {
+  padding: 3rem 3rem;
+}
+.top-courses h1 {
+  color: #072f60;
+  padding-bottom: 3rem;
+}
+
+.top-courses button {
+  outline: none;
+  border: none;
+  background-color: #3bbca7;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s all ease;
+}
+
+.top-courses button:hover {
+  background-color: #072f60;
+}

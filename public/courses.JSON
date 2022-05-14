@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "courseName": "Absolute Beginners Cooking Course",
+    "author": "Tim Burton",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/HIDA4-150x150.jpg",
+    "price": "Free",
+    "rating": 4,
+    "category": "Cooking",
+    "enrolledUser": 22,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/03/UJYT73-500x300.jpeg"
+  },
+  {
+    "id": 2,
+    "courseName": "Web Design Training with Elementor",
+    "author": "James Fleu",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "$29.99",
+    "rating": 3,
+    "category": "Programming",
+    "enrolledUser": 49,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/05/VAR94-500x300.jpg"
+  },
+  {
+    "id": 3,
+    "courseName": "Basic Level Youth Health and Cooking",
+    "author": "Tim Burton",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/SMK943-150x150.jpg",
+    "price": "$50.99",
+    "rating": 5,
+    "category": "Cooking",
+    "enrolledUser": 78,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/03/FOO634-500x300.jpeg"
+  },
+  {
+    "id": 4,
+    "courseName": "Drawing and Painting Course for Children",
+    "author": "Caron Cox",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "$35.99",
+    "rating": 3.5,
+    "category": "Lifestyle",
+    "enrolledUser": 38,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/02/PRO833-500x300.jpeg"
+  },
+  {
+    "id": 5,
+    "courseName": "WordPress Beginner to Advanced Course",
+    "author": "Andrew Negi",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/SMK943-150x150.jpg",
+    "price": "Free",
+    "rating": 5,
+    "category": "Business",
+    "enrolledUser": 133,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/02/BIRR267-500x300.jpeg"
+  },
+  {
+    "id": 6,
+    "courseName": "Complete Digital Marketing course",
+    "author": "Florence Mita",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "$78.99",
+    "rating": 4,
+    "category": "Business",
+    "enrolledUser": 82,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2020/09/BLP08-500x300.jpeg"
+  },{
+    "id": 7,
+    "courseName": "Absolute Beginners Cooking Course",
+    "author": "Tim Burton",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/SMK943-150x150.jpg",
+    "price": "Free",
+    "rating": 4,
+    "category": "Cooking",
+    "enrolledUser": 22,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/03/UJYT73-500x300.jpeg"
+  },
+  {
+    "id": 8,
+    "courseName": "Web Design Training with Elementor",
+    "author": "James Fleu",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "$29.99",
+    "rating": 3,
+    "category": "Programming",
+    "enrolledUser": 49,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/05/VAR94-500x300.jpg"
+  },
+  {
+    "id": 9,
+    "courseName": "Basic Level Youth Health and Cooking",
+    "author": "Tim Burton",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/HIDA4-150x150.jpg",
+    "price": "$50.99",
+    "rating": 5,
+    "category": "Cooking",
+    "enrolledUser": 78,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/03/FOO634-500x300.jpeg"
+  },
+  {
+    "id": 10,
+    "courseName": "Drawing and Painting Course for Children",
+    "author": "Caron Cox",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "$35.99",
+    "rating": 3.5,
+    "category": "Lifestyle",
+    "enrolledUser": 38,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/02/PRO833-500x300.jpeg"
+  },
+  {
+    "id": 11,
+    "courseName": "WordPress Beginner to Advanced Course",
+    "author": "Andrew Negi",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/RIT43-150x150.jpeg",
+    "price": "Free",
+    "rating": 5,
+    "category": "Business",
+    "enrolledUser": 133,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/02/BIRR267-500x300.jpeg"
+  },
+  {
+    "id": 12,
+    "courseName": "Complete Digital Marketing course",
+    "author": "Florence Mita",
+    "authorImage": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/HIDA4-150x150.jpg",
+    "price": "$78.99",
+    "rating": 4,
+    "category": "Business",
+    "enrolledUser": 82,
+    "image": "https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2020/09/BLP08-500x300.jpeg"
+  }
+]
