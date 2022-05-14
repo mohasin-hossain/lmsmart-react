@@ -3,6 +3,12 @@
     height: 60px;
 }
 
+nav {
+    z-index: 3;
+    box-shadow: 2px .4rem .8rem rgba(51, 51, 51, 0.151);
+    padding: 0 2rem;
+}
+
 nav a {
     text-decoration: none;
     padding: .5rem 1rem;
@@ -13,7 +19,7 @@ nav a {
 }
 
 nav a:hover {
-    box-shadow: inset 100px 0 0 0 #3BBCA7;
+    box-shadow: inset 100px 0 0 0 #072F60;
     color: white;
 }
 
@@ -29,7 +35,7 @@ nav button {
     border: none;
     background: transparent;
     margin-left: -2.5rem;
-    margin-right: 2.3rem;
+    margin-right: 1rem;
 }
 
 .login-section {
