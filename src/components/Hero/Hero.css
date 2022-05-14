@@ -1,0 +1,87 @@
+.hero {
+    background-color: #F6F7F9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.hero h6 {
+    color: #3BBCA7;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.hero h1 {
+    color: #072F60;
+    font-size: 48px;
+    font-weight:bold;
+    line-height: 60px;
+}
+
+.hero button {
+    outline: none;
+    border: none;
+    background-color: #3BBCA7;
+    color: #fff;
+    padding: .8rem 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s all ease;
+}
+
+.hero button:hover {
+    background-color: #072F60;
+}
+
+.container div:first-child {
+    padding-right: 3rem;
+}
+
+.hero img:nth-child(1),
+.hero img:nth-child(2) {
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.blue-circle,
+.yellow-circle,
+.dots {
+    position: absolute;
+    z-index: 1;
+}
+
+.blue-circle {
+    top: 1rem;
+    left: -3rem;
+}
+
+.dots {
+    top: -4rem;
+    right: 7rem;
+}
+
+.yellow-circle {
+    right: 13rem;
+    bottom: -2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+   .container div:first-child {
+       padding-right: 0px;
+   }
+}
+
+
+@media only screen and (max-width: 1060px) {
+    .container {
+        flex-direction: column;
+    }  
+    .hero {
+        height: 100%;
+        padding: 5rem 0;
+    }
+}

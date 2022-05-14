@@ -1,0 +1,14 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #082f4e;
+  padding: 3rem 3rem;
+  color: #fff;
+  gap: 3rem;
+}
+
+.features img {
+  width: 65px;
+  height: 65px;
+}
