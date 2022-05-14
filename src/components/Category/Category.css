@@ -1,0 +1,58 @@
+.category {
+    padding: 3rem 3rem;
+}
+
+.category h1 {
+    color: #072F60;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.category button {
+    border: none;
+    background-color: transparent;
+    color: #3BBCA7;
+    font-weight: bold;
+    border: 1px solid #3BBCA7;
+    border-radius: 5px;
+    padding: .7rem 1.5rem;
+    transition: .5s all;
+}
+
+.category button:hover {
+    background: #3BBCA7;
+    color: #fff;
+}
+
+.category-items {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 2rem;
+}
+
+.category-items div {
+    background-color: #F6F7F9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.4rem;
+    gap: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.category-items div:hover {
+    background-color: #072F60;
+    color: #fff;
+}
+
+.category-items div img {
+    width: 50px;
+}
+
+.category-items div h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+}
