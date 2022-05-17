@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg="light" expand="xl">
+      <Navbar bg="light" expand="xl" fixed="top">
         <Container fluid>
           <img className="logo" src={logo} alt="" />
           <Navbar.Toggle aria-controls="navbarScroll" />

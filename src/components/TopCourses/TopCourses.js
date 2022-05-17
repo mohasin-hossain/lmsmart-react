@@ -18,7 +18,7 @@ const TopCourses = () => {
             <h1 className='text-center fw-bold'>Top Rated Learning Tutorials</h1>
             <Row xs={1} sm={1} md={2} lg={3} xl={4} className="g-4">
             {
-                topCourses.slice(0, 4).map(course => <TopCourse course={course}></TopCourse>  )
+                topCourses.slice(0, 4).map(course => <TopCourse key={course.id} course={course}></TopCourse>  )
             }
            </Row>
            <div className='d-flex justify-content-center'>

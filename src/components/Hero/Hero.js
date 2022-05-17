@@ -22,7 +22,7 @@ const Hero = () => {
           <button>Explore all courses</button>
           </Link>
         </div>
-        <div className="d-flex align-items-center justify-content-center gap-3 gap-xl-5 position-relative">
+        <div className="d-flex align-items-center justify-content-center gap-3 gap-xl-5 position-relative hero-img-box">
           <img src={headerImg1} alt="" />
           <img src={headerImg2} alt="" />
           <img className="blue-circle" src={blueCircle} alt="" />

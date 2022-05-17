@@ -1,0 +1,52 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3rem;
+  border-top: 2px solid rgba(128, 128, 128, 0.575);
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  footer div:first-child p {
+      padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  footer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  footer div:first-child p {
+      padding-right: 2rem;
+  }
+}
+
+
+
+footer img {
+  width: 150px;
+}
+
+footer div:nth-child(2) a,
+footer div:nth-child(3) a,
+footer div:nth-child(4) a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+footer div:nth-child(2) a:hover,
+footer div:nth-child(3) a:hover,
+footer div:nth-child(4) a:hover {
+  color: #3bbca7 !important;
+}

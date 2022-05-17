@@ -12,7 +12,7 @@ import medicineIcon from '../../images/med.png';
 const Category = () => {
     return (
         <section className='category'>
-            <div className='d-flex justify-content-between'>
+            <div className='d-flex justify-content-between category-title'>
                 <h1>Featured topics by category</h1>
                 <button>Explore More</button>
             </div>

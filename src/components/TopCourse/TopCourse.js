@@ -43,7 +43,7 @@ const TopCourse = (props) => {
             readonly
           />
         </div>
-      </Card>
+      </Card> 
     </Col>
   );
 };

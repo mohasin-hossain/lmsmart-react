@@ -75,6 +75,12 @@
    }
 }
 
+@media only screen and (max-width: 650px) {
+    .hero-img-box img{
+        width: 150px;
+    }
+}
+
 
 @media only screen and (max-width: 1060px) {
     .container {
@@ -82,6 +88,6 @@
     }  
     .hero {
         height: 100%;
-        padding: 5rem 0;
+        padding: 5rem 1rem;
     }
 }
