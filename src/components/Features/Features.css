@@ -8,6 +8,12 @@
   gap: 3rem;
 }
 
+@media only screen and (max-width: 650px) {
+  .features {
+    justify-content: flex-start;
+  }
+}
+
 .features img {
   width: 65px;
   height: 65px;

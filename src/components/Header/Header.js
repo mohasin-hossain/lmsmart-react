@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <Navbar bg="light" expand="xl" fixed="top">
-        <Container fluid>
+        <Container fluid className="bg-light">
           <img className="logo" src={logo} alt="" />
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
