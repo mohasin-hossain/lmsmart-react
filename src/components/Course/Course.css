@@ -1,0 +1,14 @@
+.author button {
+    outline: none;
+    border: none;
+    background-color: #3bbca6b7;
+    color: #fff;
+    padding: 0.2rem .6rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+  }
+  
+  .author button:hover {
+    background-color: #072f60;
+  }
